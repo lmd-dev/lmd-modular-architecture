@@ -1,0 +1,8 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "lib": [ "ES2017", "DOM" ],
+    "target": "es6",
+    "module": "ESNext",
+  }
+}

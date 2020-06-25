@@ -1,0 +1,30 @@
+{
+  "required": [
+
+  ],
+  "controllers": [
+    {
+      "file": "controller-1.js",
+      "className" : "Controller1"
+    }
+  ],
+  "views": [
+    {
+      "file": "view-1.js",
+      "className": "View1",
+      "controllers": [
+        {
+          "module": "",
+          "controllerName": "Controller1"
+        }
+      ]
+    }
+
+  ],
+  "models": [
+    {
+      "file": "model-1.js",
+      "className": "Model1"
+    }
+  ]
+}

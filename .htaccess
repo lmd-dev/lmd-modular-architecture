@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteRule "modules/(.*)/(.*)" "js/modules/$1/$2"
+RewriteRule "^modules/(.*)" "js/modules/$1/module.json"
